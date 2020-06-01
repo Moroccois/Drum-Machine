@@ -1,0 +1,86 @@
+/* font-family: 'Source Code Pro', monospace;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Tomorrow', sans-serif; */
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#display {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+   
+    color: black;
+    padding: 5px;
+    margin: auto;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; 
+    background-color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+
+h1{ font-family: 'Tomorrow', sans-serif; font-weight: lighter;  }
+
+/* Drum machine container */
+#drum-machine {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    max-width: 500px;
+    max-width: 500px;
+
+    border: 3px solid black;
+    box-shadow: 5px 5px gray;
+    background-color: #99ccff;
+    
+}
+
+
+/* drum elements individuals */
+.drum-pad {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+
+    border: 1px solid black;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px #888;
+    margin-top: 15px;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+.drum-pad:hover {
+    /* background-color:#99cccc; */
+    /* background-color: #88c4c4; */
+    background-color: #77bbbb;
+}
+
+/* Style the buttons */
+.drum{
+    /* width: 20px;
+    height: 20px; */
+    /* padding: 1rem;
+    margin: 2rem; */
+   
+    max-width: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
